@@ -1,1 +1,190 @@
-<mxfile host="app.diagrams.net" modified="2020-06-24T08:29:05.562Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" version="13.3.1" etag="_twdJoEt96UOyOpsmMp9" type="github"><diagram id="BIw1IDlJa00LHU2ntZLE">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-06-24T08:29:23.084Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="pBiygO01QS-wOQTCVrOX" version="13.3.1" type="github">
+  <diagram id="BIw1IDlJa00LHU2ntZLE" name="Page-1">
+    <mxGraphModel dx="911" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HTjI7hGj3Y7B9apMjne--1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HTjI7hGj3Y7B9apMjne--2" target="HTjI7hGj3Y7B9apMjne--4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--2" value="START" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="140" y="70" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HTjI7hGj3Y7B9apMjne--4" target="HTjI7hGj3Y7B9apMjne--7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--4" value="Update Shadow Req (State: Desired or Reported)&lt;br&gt;$shadow/{ClientID}/update" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="50" y="170" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HTjI7hGj3Y7B9apMjne--7" target="HTjI7hGj3Y7B9apMjne--14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HTjI7hGj3Y7B9apMjne--7" target="HTjI7hGj3Y7B9apMjne--12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="690" y="70" />
+              <mxPoint x="690" y="285" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--7" value="Shadow Available?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="430" y="30" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HTjI7hGj3Y7B9apMjne--9" target="HTjI7hGj3Y7B9apMjne--15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--9" value="Update/Creation Rejected(Returns Error)&lt;br&gt;$shadow/{ClientID}/update/rejected" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="420" y="360" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HTjI7hGj3Y7B9apMjne--12" target="HTjI7hGj3Y7B9apMjne--9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HTjI7hGj3Y7B9apMjne--12" target="HTjI7hGj3Y7B9apMjne--17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--12" value="Shadow Updated Successfully?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="435" y="240" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HTjI7hGj3Y7B9apMjne--14" target="HTjI7hGj3Y7B9apMjne--12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--14" value="Shadow Plug will try creating new Shadow" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="420" y="150" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--15" value="END" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="475" y="450" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HTjI7hGj3Y7B9apMjne--17" target="HTjI7hGj3Y7B9apMjne--19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--17" value="Accepted (Returns Reported or Desired Doc)&lt;br&gt;$shadow/{ClientID}/update/accepted" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="50" y="255" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HTjI7hGj3Y7B9apMjne--19" target="HTjI7hGj3Y7B9apMjne--22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--19" value="Document (Returns Previous &amp;amp; Current State Doc)&lt;br&gt;$shadow/{ClientID}/update/documents" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="50" y="345" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HTjI7hGj3Y7B9apMjne--22" target="HTjI7hGj3Y7B9apMjne--15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HTjI7hGj3Y7B9apMjne--22" target="HTjI7hGj3Y7B9apMjne--24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--22" value="Delta between Desired &amp;amp; last Reported States&amp;nbsp;&lt;br&gt;(or New Shadow with a Desired State)?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="53" y="430" width="275" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="HTjI7hGj3Y7B9apMjne--24" target="HTjI7hGj3Y7B9apMjne--15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--24" value="Delta (Returns Delta State)&lt;br&gt;$shadow/{ClientID}/update/delta" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="50.5" y="580" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--25" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="645" y="50" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--26" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="125" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--27" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="535" y="330" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--28" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="255" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--29" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="460" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--30" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="547" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HTjI7hGj3Y7B9apMjne--32" target="HTjI7hGj3Y7B9apMjne--34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--32" value="START" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="75" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HTjI7hGj3Y7B9apMjne--34" target="HTjI7hGj3Y7B9apMjne--37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--34" value="Get Shadow State Document (Request)&lt;br&gt;$shadow/{ClientID}/update/get" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="190" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HTjI7hGj3Y7B9apMjne--37" target="HTjI7hGj3Y7B9apMjne--42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HTjI7hGj3Y7B9apMjne--37" target="HTjI7hGj3Y7B9apMjne--40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--37" value="Shadow Get Request Accepted?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="310" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--38" value="END" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="527" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="HTjI7hGj3Y7B9apMjne--40" target="HTjI7hGj3Y7B9apMjne--38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--40" value="Get Accepted (Returns Full State Document)&lt;br&gt;$shadow/{ClientID}/update/get/accpeted" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="807.5" y="430" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="HTjI7hGj3Y7B9apMjne--42" target="HTjI7hGj3Y7B9apMjne--38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--42" value="Get Request Rejected (Return Error)&lt;br&gt;$shadow/{ClientID}/update/get/rejected" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="430" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--43" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1074" y="334" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--44" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="334" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HTjI7hGj3Y7B9apMjne--46" target="HTjI7hGj3Y7B9apMjne--48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--46" value="START" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="402.5" y="750" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HTjI7hGj3Y7B9apMjne--48" target="HTjI7hGj3Y7B9apMjne--51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--48" value="Delete Shadow State Document (Request)&lt;br&gt;$shadow/{ClientID}/delete" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="312.5" y="865" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HTjI7hGj3Y7B9apMjne--51" target="HTjI7hGj3Y7B9apMjne--56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HTjI7hGj3Y7B9apMjne--51" target="HTjI7hGj3Y7B9apMjne--54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--51" value="Shadow Delete Request Accepted?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="362.5" y="985" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--52" value="END" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="402.5" y="1202" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="HTjI7hGj3Y7B9apMjne--54" target="HTjI7hGj3Y7B9apMjne--52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--54" value="Delete Accepted (Returns Timestamp and Ver.)&lt;br&gt;$shadow/{ClientID}/delete/accpeted" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1105" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="HTjI7hGj3Y7B9apMjne--56" target="HTjI7hGj3Y7B9apMjne--52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--56" value="Delete Request Rejected (Return Error)&lt;br&gt;$shadow/{ClientID}/delete/rejected" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="562.5" y="1105" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--57" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="316.5" y="1009" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="HTjI7hGj3Y7B9apMjne--58" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];;autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="562.5" y="1009" width="30" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
